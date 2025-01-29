@@ -1,4 +1,4 @@
-describe("Central de Atendimento ao Cliente TAT", () => {
+describe("Central de Atendimento ao Cliente TAT - Inputos do Radio", () => {
   beforeEach(() => {
     cy.visit("/src/index.html"); // Acessando local
   });
@@ -8,31 +8,20 @@ describe("Central de Atendimento ao Cliente TAT", () => {
   });
 
   // Exercicio
-  it("preenche os campos obrigatórios e envia o formulário", () => {
-    const longText = "Teste";
-    cy.get("#firstName").type("Amanda");
-    cy.get("#lastName").type("Cortez");
-    cy.get("#email").type("amadna@gmail.com");
-    cy.get("#open-text-area").type(longText, { delay: 0 });
-    cy.get('select').select(1) // Seleção pelo índice 1
-
-
-    // cy.contains("button", "Enviar").click();
-    // cy.get(".success").should("be.visible");
+  it("marca o tipo de atendimento Feedback", () => {
+    cy.get('input[type="radio"][value="feedback"]').check()
   });
 
   // Exercicio extra 1
-  it("seleciona um produto (Mentoria) por seu valor (value)", function () {
-    cy.fillMandatoryFieldsAndSubmit();
-    cy.get('#product').select('mentoria').should('have.value', 'mentoria');
-    // cy.contains("button", "Enviar").click();
-  });
+  it.only("marca cada tipo de atendimento", () => {
+    cy.get('input[type="radio"').each(typeOfService =>{
+      cy.wrap(typeOfService).check().should('be.checked')
+    })  });
 
-  // Exercicio extra 2
-  it.only("seleciona um produto (Blog) por seu índice", function () {
-    cy.fillMandatoryFieldsAndSubmit();
-    cy.get('#product').select(1);
+  // Padrão pra preencher os campos
+  // it("seleciona um produto (Blog) por seu índice", function () {
+    // cy.fillMandatoryFieldsAndSubmit();
     // cy.contains("button", "Enviar").click();
-  });
+  // });
 
 });

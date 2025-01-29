@@ -1,4 +1,4 @@
-describe("Central de Atendimento ao Cliente TAT", () => {
+describe("Central de Atendimento ao Cliente TAT - Campos e Elementos", () => {
   beforeEach(() => {
     cy.visit("/src/index.html"); // Acessando local
   });
