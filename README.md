@@ -1,28 +1,61 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
 
-👋 Seja bem-vindo(a)!
+<div align="center">
+  <h1 align="center">
+    Cypress, from zerto to the cloud
+    <br />
+      <img src="/img/image_06.gif" alt="Docusaurus">
+    <br />
+  </h1>
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+  <h2> 
 
-## O que você vai aprender?
+  :construction: Projeto em construção :construction:
+  <!-- :white_check_mark: Projeto finalizad -->
+  </h2>
+</div>
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
 
-## Vamos começar?
+---
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+# :file_folder: Índice 
 
-___
+- [Descrição do Projeto](#id01)
+- [Ferramentas](#id02)
+- [Instalação](#id03)
 
-Este é um curso da **Escola Talking About Testing**.
+---
+
+# :pushpin: Descrição do Projeto <a name="id01"></a>
+Utilização da ferramenta Cypress.
+Aula pelo Walmyr - Udemy [Curso Cypress, do Zero à Nuvem](https://www.udemy.com/course/testes-automatizados-com-cypress-basico/?srsltid=AfmBOorf-NLo7WN-x5XV8ptyJ8jSa8tlRXeTecuwHkpLsrYK2apvplxp&couponCode=KEEPLEARNINGBR).
+Vá para a seção [estrutura do curso](./lessons/README.md) sobre os conteúdos da aula
+
+---
+
+# :computer: Ferramentas<a name="id02"></a>
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
+
+---
+
+# 🗂 Instalações <a name="id03"></a>
+#### Baixar Projeto e instalações
+```bash
+    # Clonar o repositório
+    $ git clone https://github.com/Amanda92Cortez/udemy_cypress-do-zero-a-nuvem.git
+
+    # Entrar no diretório
+    $ cd nomePasta
+
+    # Instalar as dependências
+    $ npm install cypress
+
+    # Iniciar o projeto
+    $ npm run cy:open
+
+    # Gravação de vídeo modo mobile
+    $ cy:open:mobile
+```
+
+---
+
+Feito com ❤️ por Amanda Cortez 👋🏽 [Acesse meu linkedin!](www.linkedin.com/in/amandacortez92)
