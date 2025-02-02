@@ -25,8 +25,8 @@ describe("Central de Atendimento ao Cliente TAT - Upload de Arquivos", () => {
 
   // Extra 2
   it.only("seleciona um arquivo utilizando uma fixture para a qual foi dada um alias", () => {
-    cy.fixture('teste.txt')
-    cy.get('input[type="file"]').selectFile('cypress/fixtures/teste.txt')
+    cy.fixture('teste.txt').as('sampleFile')
+    cy.get('input[type="file"]').selectFile('@sampleFile')
     .should(input => {
       expect(input[0].files[0].name).to.equal('teste.txt')
     })
