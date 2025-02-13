@@ -37,6 +37,11 @@ Vá para a seção [estrutura do curso](./lessons/README.md) sobre os conteúdos
 
 ---
 
+# 🎯 Desafio <a name="id04"></a>
+<img src="/img/cac-tat.gif" alt="Docusaurus">
+
+---
+
 # 🗂 Instalações <a name="id03"></a>
 #### Baixar Projeto e instalações
 ```bash
