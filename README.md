@@ -3,7 +3,7 @@
   <h1 align="center">
     Cypress, from zerto to the cloud
     <br />
-      <img src="/img/image_06.gif" alt="Docusaurus">
+      <img src="/img/banner.avif" alt="Banner">
     <br />
   </h1>
 
