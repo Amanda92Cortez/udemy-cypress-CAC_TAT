@@ -9,8 +9,8 @@
 
   <h2> 
 
-  :construction: Projeto em construção :construction:
-  <!-- :white_check_mark: Projeto finalizad -->
+  <!-- :construction: Projeto em construção :construction: -->
+  :white_check_mark: Projeto finalizad
   </h2>
 </div>
 
