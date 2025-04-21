@@ -32,6 +32,10 @@ Vá para a seção [estrutura do curso](./lessons/README.md) sobre os conteúdos
 
 ---
 
+` Curso: ` [Udemy - Cypress, do Zero à Nuvem]("https://www.udemy.com/course/testes-automatizados-com-cypress-basico/?couponCode=KEEPLEARNINGBR")
+
+---
+
 # :computer: Ferramentas<a name="id02"></a>
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 
