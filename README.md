@@ -32,7 +32,7 @@ Vá para a seção [estrutura do curso](./lessons/README.md) sobre os conteúdos
 
 ---
 
-` Curso: ` [Udemy - Cypress, do Zero à Nuvem]("https://www.udemy.com/course/testes-automatizados-com-cypress-basico/?couponCode=KEEPLEARNINGBR")
+` Curso: ` Udemy - Cypress, do Zero à Nuvem
 
 ---
 
